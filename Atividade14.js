@@ -1,7 +1,9 @@
 let confirmaSaida;
 do {
-    confirmaSaida = prompt("Deseja sair do programa? (Digite 'sim' ou 'não'");
-} while (confirmaSaida !== 'sim');
+    resposta = prompt("Deseja sair? (sim/não)");
+  } while (resposta !== "sim");
+  console.log("Saída confirmada!");
+  
 
 
 

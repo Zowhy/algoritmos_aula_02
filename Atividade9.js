@@ -1,9 +1,9 @@
 let i = 1;
 do{
-if (i % 2!==0){
+if (i % 2 !== 0){
     i++
     continue;
 }
 console.log(i);
-i++
+i++;
 } while (i<= 10);

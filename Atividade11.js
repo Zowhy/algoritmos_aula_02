@@ -7,4 +7,4 @@ while (!found){
         numero++;
     }
 }
-console.log("O menor numero divisivel pr 2, 3 e 5 é:" +numero);
+console.log("O menor numero divisivel por 2, 3 e 5 é:" +numero);
